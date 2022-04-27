@@ -1,0 +1,21 @@
+// レスポンシブデザイン　　　ある一定の幅を満たした際に条件が変更される
+$grid-breakpoints: (
+  xs: 0,
+  sm: 576px,
+  md: 768px,
+  lg: 1000px,
+  xl: 1200px
+) ;
+
+// bootstrapを読み込む前に、変更したい項目を記載すればカスタマイズ可能
+
+// containerの中身に変更を加える条件幅を設定　　見栄え
+$container-max-widths: (
+  sm: 540px,
+  md: 720px,
+  lg: 960px,
+  xl: 1140px
+);
+
+
+@import "../../bootstrap/bootstrap.scss";
